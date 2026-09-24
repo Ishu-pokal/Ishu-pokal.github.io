@@ -1,0 +1,137 @@
+{
+  "sectionTitle": "Selected Work",
+  "projects": [
+    {
+      "title": "knn-python-implementation",
+      "description": "Full-featured application built as a learning exercise",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/knn-python-implementation"
+    },
+    {
+      "title": "wealthwise-robo-advisor",
+      "description": "Modern web application demonstrating clean code principles",
+      "category": "Backend Development",
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "CSS",
+        "Dockerfile",
+        "JavaScript"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/wealthwise-robo-advisor"
+    },
+    {
+      "title": "identify_contrails",
+      "description": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/identify_contrails"
+    },
+    {
+      "title": "enhanced-anomaly-detection-system",
+      "description": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "HTML"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/enhanced-anomaly-detection-system"
+    },
+    {
+      "title": "customer-churn-prediction",
+      "description": "Hands-on learning experience with modern frameworks",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/customer-churn-prediction"
+    },
+    {
+      "title": "online-payments-fraud-detection-with-machine-learning",
+      "description": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "featured": true,
+      "github": "https://github.com/Ishu-pokal/online-payments-fraud-detection-with-machine-learning"
+    },
+    {
+      "title": "brain-mapping-eeg-classification",
+      "description": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Dockerfile"
+      ],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/brain-mapping-eeg-classification"
+    },
+    {
+      "title": "retail-margin-cockpit",
+      "description": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "PLpgSQL",
+        "Dockerfile"
+      ],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/retail-margin-cockpit"
+    },
+    {
+      "title": "field-ops-sql-cost-audit",
+      "description": "Personal project for exploring modern development practices",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/field-ops-sql-cost-audit"
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/contribution-history"
+    },
+    {
+      "title": "diabetes-readmission",
+      "description": "Comprehensive project exploring software design patterns",
+      "category": "Development",
+      "technologies": [],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/diabetes-readmission"
+    },
+    {
+      "title": "yolo-1790268816843",
+      "description": "⚡ YOLO: Merge without review for achievement",
+      "category": "Development",
+      "technologies": [],
+      "featured": false,
+      "github": "https://github.com/Ishu-pokal/yolo-1790268816843"
+    }
+  ]
+}

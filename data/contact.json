@@ -1,0 +1,14 @@
+{
+  "sectionTitle": "Get in touch",
+  "subtitle": "Have a project in mind or a role to fill? Let's connect.",
+  "email": "ishupokal077@gmail.com",
+  "location": "CT, USA",
+  "availability": "Open to opportunities",
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:ishupokal077@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

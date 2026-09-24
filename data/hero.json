@@ -1,0 +1,46 @@
+{
+  "eyebrow": "SUPPLY CHAIN ANALYST",
+  "greeting": "Hello, I'm",
+  "name": "ISITA POKAL",
+  "role": "Supply Chain Analyst",
+  "tagline": "Supply Chain Analyst with 4+ years of experience in demand planning, inventory optimization, procurement, and S&OP across FMCG and IT services. Skilled in SAP MM, Oracle SCM Cloud, Power BI, Advanced Excel, and SQL to optimize supply chain operations, improve inventory visibility, and support data-driven business decisions. Experienced in collaborating with cross-functional teams to streamline processes, enhance operational efficiency, and deliver measurable business results.",
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary"
+      },
+      {
+        "text": "View Projects",
+        "href": "#work",
+        "type": "secondary"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "Email",
+      "url": "mailto:ishupokal077@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "stats": [
+    {
+      "value": "4+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "1",
+      "label": "Projects"
+    },
+    {
+      "value": "2",
+      "label": "Companies"
+    },
+    {
+      "value": "60+",
+      "label": "Technologies"
+    }
+  ]
+}

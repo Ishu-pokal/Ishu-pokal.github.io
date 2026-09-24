@@ -1,0 +1,31 @@
+{
+  "sectionTitle": "Experience",
+  "experiences": [
+    {
+      "title": "Supply Chain Analyst",
+      "company": "PepsiCo",
+      "period": "Jan 2026 - Present",
+      "responsibilities": [
+        "Analyzed SKU-level demand, inventory, and replenishment trends across multiple distribution canters using SAP MM, Power BI, and Advanced Excel, improving forecast accuracy by 18% and enabling more effective S&OP planning",
+        "Optimized inventory replenishment strategies by monitoring supplier lead times, fill rates, and procurement performance through SAP reporting, reducing stockout occurrences by 15% while maintaining target inventory levels",
+        "Designed executive KPI dashboards in Power BI tracking inventory turnover, OTIF, transportation cost, forecast accuracy, and warehouse performance, reducing manual reporting effort by 40%",
+        "Integrated sales forecasts, production schedules, warehouse inventory, and procurement data into centralized planning models using SAP and Excel, improving planning cycle efficiency by 25%",
+        "Collaborated with procurement, manufacturing, warehouse, and transportation teams to resolve order fulfilment issues and shipment delays, increasing OTIF delivery performance by 14% across assigned product portfolios",
+        "Performed root cause analysis on inventory variances and demand fluctuations using Power BI, Excel, and operational KPI reporting, improving inventory visibility and reducing excess inventory by 10%"
+      ]
+    },
+    {
+      "title": "Supply Chain Analyst",
+      "company": "Mphasis",
+      "period": "Apr 2021 - Dec 2024",
+      "responsibilities": [
+        "Managed end-to-end procurement operations for IT hardware, software licensing, and managed services using Oracle SCM Cloud, ensuring timely purchasing, vendor compliance, and uninterrupted project delivery",
+        "Administered purchase orders, supplier contracts, invoice reconciliation, and procurement documentation for 50+ strategic vendors, reducing invoice processing time by 20% while improving procurement accuracy",
+        "Developed demand forecasting and procurement planning models using Advanced Excel, Power BI, and Oracle SCM, improving inventory planning accuracy by 22% and supporting resource planning",
+        "Automated supplier performance, procurement KPI, and SLA reporting through Power BI, Excel Macros, and ERP data, reducing manual reporting effort by 35% and accelerating executive reporting",
+        "Collaborated with sourcing, finance, delivery, and vendor management teams to optimize procurement planning, improving procurement cycle efficiency by 18% and minimizing project delivery delays",
+        "Maintained supplier master data, resolved procurement discrepancies, and standardized procurement workflows within Oracle SCM Cloud, improving data accuracy, audit compliance, and reducing processing errors by 25%"
+      ]
+    }
+  ]
+}

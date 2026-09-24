@@ -1,0 +1,83 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "SAP MM",
+        "Oracle SCM Cloud",
+        "Power BI",
+        "Advanced Excel",
+        "Pivot Tables",
+        "Power Query",
+        "VLOOKUP",
+        "XLOOKUP",
+        "INDEX/MATCH",
+        "Macros",
+        "Tableau",
+        "KPI Dashboards",
+        "MS Project",
+        "SharePoint",
+        "Jira",
+        "Microsoft Teams",
+        "Agile",
+        "Kanban"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Demand Planning",
+        "Supply Planning",
+        "Sales & Operations Planning (S&OP)",
+        "Inventory Optimization",
+        "Inventory Management",
+        "Replenishment Planning",
+        "Forecasting",
+        "Order Fulfilment",
+        "Procurement Operations",
+        "Strategic Sourcing",
+        "Purchase Order Management",
+        "Vendor Management",
+        "Supplier Performance Management",
+        "Contract Management",
+        "Supplier Relationship Management",
+        "ERP Master Data Management",
+        "Material Management",
+        "Procurement Workflows",
+        "Logistics Coordination",
+        "Distribution Center Operations",
+        "Warehouse Operations",
+        "Transportation Coordination",
+        "Inventory Control",
+        "Demand & Supply Analysis",
+        "Root Cause Analysis",
+        "Process Optimization",
+        "Continuous Improvement",
+        "KPI Tracking",
+        "Six Sigma Fundamentals",
+        "Audit Compliance",
+        "Process Standardization",
+        "Cross-Functional Collaboration",
+        "Stakeholder Management",
+        "Performance Monitoring",
+        "Operational Reporting",
+        "Documentation Management",
+        "Analytical Problem Solving",
+        "Strategic Decision Making",
+        "Communication",
+        "Time Management",
+        "Adaptability"
+      ]
+    }
+  ]
+}
