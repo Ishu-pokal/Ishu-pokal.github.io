@@ -235,7 +235,12 @@
   }
 
   // Real company logos (light chip); anything not listed falls back to a monogram.
-  const COMPANY_LOGOS = { "Cigna Group": "cigna.svg", "Tata Capital": "tata.svg" };
+  const COMPANY_LOGOS = {
+    "Cigna Group": "cigna.svg",
+    "Tata Capital": "tata.svg",
+    PepsiCo: "pepsico.svg",
+    Mphasis: "mphasis.svg",
+  };
   function companyLogoFile(company) {
     const clean = String(company == null ? "" : company)
       .split(",")[0]
@@ -341,7 +346,8 @@
     grid.innerHTML = projects
       .map((p) => {
         const slug = repoSlug(p);
-        const imgSlug = slugForCategory(p.category);
+        // Per-project cover (data/projects.json "image"); else the category cover.
+        const imgSrc = p.image || `assets/img/projects/${slugForCategory(p.category)}.png`;
         const tags = (p.technologies || [])
           .map((t) => `<li class="chip mono">${esc(t)}</li>`)
           .join("");
@@ -355,9 +361,9 @@
         return (
           `<article class="proj" data-category="${attr(p.category)}">` +
           `<div class="proj-tile" aria-hidden="true">` +
-          `<img class="proj-img" src="assets/img/projects/${attr(
-            imgSlug
-          )}.png" alt="" loading="lazy" aria-hidden="true" onerror="this.remove()">` +
+          `<img class="proj-img" src="${attr(
+            imgSrc
+          )}" alt="" loading="lazy" aria-hidden="true" onerror="this.remove()">` +
           `<span class="proj-mono mono">${esc(slug)}</span></div>` +
           `<div class="proj-body">` +
           `<span class="proj-cat mono">${esc(p.category)}</span>` +
@@ -790,7 +796,7 @@
     if (data.footer) safe("footer", () => loadFooter(data.footer));
 
     // Hydrate static identity chrome the section loaders don't touch: the
-    // terminal prompt label, the portrait caption/alt, and the author meta tag.
+    // terminal prompt label and the author meta tag.
     safe("identityChrome", () => {
       const name =
         (data.hero && data.hero.name) ||
@@ -798,18 +804,8 @@
         "";
       if (!name) return;
       const first = name.trim().split(/\s+/)[0] || "user";
-      const loc = (data.contact && data.contact.location) || "";
       const promptEl = document.querySelector(".terminal-label");
       if (promptEl) promptEl.textContent = `${first.toLowerCase()}@portfolio: ~`;
-      const capEl = document.querySelector(".about-portrait figcaption");
-      if (capEl) capEl.textContent = loc ? `${name} · ${loc}` : name;
-      const portraitImg = document.querySelector(".about-portrait img");
-      if (portraitImg) {
-        portraitImg.alt = `Portrait of ${name}`;
-        // Without this the bundled demo portrait ships to the customer.
-        const avatar = data.hero && data.hero.avatarUrl;
-        if (avatar) portraitImg.src = avatar;
-      }
       const metaAuthor = document.querySelector('meta[name="author"]');
       if (metaAuthor) metaAuthor.setAttribute("content", name);
     });

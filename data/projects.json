@@ -9,7 +9,8 @@
         "Jupyter Notebook"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/knn-python-implementation"
+      "github": "https://github.com/Ishu-pokal/knn-python-implementation",
+      "image": "assets/img/projects/ml.png"
     },
     {
       "title": "wealthwise-robo-advisor",
@@ -23,7 +24,8 @@
         "JavaScript"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/wealthwise-robo-advisor"
+      "github": "https://github.com/Ishu-pokal/wealthwise-robo-advisor",
+      "image": "assets/img/projects/web.png"
     },
     {
       "title": "identify_contrails",
@@ -34,7 +36,8 @@
         "Python"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/identify_contrails"
+      "github": "https://github.com/Ishu-pokal/identify_contrails",
+      "image": "assets/img/projects/cv.png"
     },
     {
       "title": "enhanced-anomaly-detection-system",
@@ -46,7 +49,8 @@
         "HTML"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/enhanced-anomaly-detection-system"
+      "github": "https://github.com/Ishu-pokal/enhanced-anomaly-detection-system",
+      "image": "assets/img/projects/datascience.png"
     },
     {
       "title": "customer-churn-prediction",
@@ -56,7 +60,8 @@
         "Python"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/customer-churn-prediction"
+      "github": "https://github.com/Ishu-pokal/customer-churn-prediction",
+      "image": "assets/img/projects/ml.png"
     },
     {
       "title": "online-payments-fraud-detection-with-machine-learning",
@@ -69,7 +74,8 @@
         "CSS"
       ],
       "featured": true,
-      "github": "https://github.com/Ishu-pokal/online-payments-fraud-detection-with-machine-learning"
+      "github": "https://github.com/Ishu-pokal/online-payments-fraud-detection-with-machine-learning",
+      "image": "assets/img/projects/security.png"
     },
     {
       "title": "brain-mapping-eeg-classification",
@@ -84,7 +90,8 @@
         "Dockerfile"
       ],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/brain-mapping-eeg-classification"
+      "github": "https://github.com/Ishu-pokal/brain-mapping-eeg-classification",
+      "image": "assets/img/projects/genai.png"
     },
     {
       "title": "retail-margin-cockpit",
@@ -96,7 +103,8 @@
         "Dockerfile"
       ],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/retail-margin-cockpit"
+      "github": "https://github.com/Ishu-pokal/retail-margin-cockpit",
+      "image": "assets/img/projects/web.png"
     },
     {
       "title": "field-ops-sql-cost-audit",
@@ -107,7 +115,8 @@
         "Dockerfile"
       ],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/field-ops-sql-cost-audit"
+      "github": "https://github.com/Ishu-pokal/field-ops-sql-cost-audit",
+      "image": "assets/img/projects/datascience.png"
     },
     {
       "title": "contribution-history",
@@ -115,7 +124,8 @@
       "category": "Development",
       "technologies": [],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/contribution-history"
+      "github": "https://github.com/Ishu-pokal/contribution-history",
+      "image": "assets/img/projects/datascience.png"
     },
     {
       "title": "diabetes-readmission",
@@ -123,7 +133,8 @@
       "category": "Development",
       "technologies": [],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/diabetes-readmission"
+      "github": "https://github.com/Ishu-pokal/diabetes-readmission",
+      "image": "assets/img/projects/genai.png"
     },
     {
       "title": "yolo-1790268816843",
@@ -131,7 +142,8 @@
       "category": "Development",
       "technologies": [],
       "featured": false,
-      "github": "https://github.com/Ishu-pokal/yolo-1790268816843"
+      "github": "https://github.com/Ishu-pokal/yolo-1790268816843",
+      "image": "assets/img/projects/mlops.png"
     }
   ]
 }

@@ -456,77 +456,7 @@ button:focus-visible {
 .about-content p { color: var(--muted); }
 .about-content strong { color: var(--text); font-weight: 500; }
 
-/* About: text + framed portrait */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: clamp(2rem, 4vw, 3.25rem);
-  align-items: start;
-}
-.about-content { max-width: 60ch; }
-
-.about-portrait {
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-  aspect-ratio: 3 / 4;
-  margin: 0;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  overflow: hidden;
-  background: var(--ink-2);
-}
-.about-portrait img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 18%;
-  display: block;
-  filter: contrast(1.03) saturate(.9);
-}
-/* vignette blends the studio-grey background into the dark theme */
-.about-portrait::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background:
-    radial-gradient(118% 82% at 50% 34%, transparent 46%, rgba(11, 15, 20, .6) 100%),
-    linear-gradient(to top, var(--ink) 1%, rgba(11, 15, 20, 0) 30%);
-}
-/* amber corner accent — ties the portrait to the schematic system */
-.about-portrait::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 22px;
-  height: 22px;
-  z-index: 2;
-  border-left: 2px solid var(--signal);
-  border-top: 2px solid var(--signal);
-}
-.about-portrait figcaption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-  padding: .7rem .9rem;
-  font-size: .72rem;
-  letter-spacing: .04em;
-  color: var(--muted);
-}
-
 @media (min-width: 860px) {
-  .about-grid {
-    grid-template-columns: minmax(0, 58ch) 300px;
-    justify-content: start;
-    gap: clamp(2.5rem, 4vw, 4rem);
-  }
-  .about-portrait { max-width: 300px; justify-self: start; }
-
   /* Experience: fixed meta column + bullets fill the remaining width */
   .xp { display: grid; grid-template-columns: 240px 1fr; column-gap: 3rem; align-items: start; }
   .xp-head { margin-bottom: 0; }
